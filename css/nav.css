@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+nav{height:55px; border-bottom:1px solid #4c4c4c;}
+nav .inner ul{overflow:hidden;}
+nav .inner ul li{float:left; margin-left:40px;}
+nav .inner ul li:nth-child(1){border-left:1px solid #e6e6e6; border-right:1px solid #e6e6e6; margin-left:0px;}
+nav .inner ul li a{display:block; line-height:55px; font-size:15px; color:#111; padding:0 10px;}
+nav .inner ul li:nth-child(1) a{position:relative; padding:0 45px 0 84px;}
+nav .inner ul li:nth-child(1) a:after{position:absolute; content:""; background:url(../image/gnb_off.jpg) no-repeat; width:26px; height:18px; left:45px; top:33%;}
+
+nav .inner ul li a:hover{font-weight:700; border-bottom:2px solid #111;}
+nav .inner ul li:nth-child(1) a:hover{background:#640faf; color:#fff; border-bottom:0px;}
+nav .inner ul li:nth-child(1) a:hover:after{position:absolute; content:""; background:url(../image/gnb_on.jpg) no-repeat; width:26px; height:18px; left:45px; top:33%;}
+
+nav .inner ul li a.on{font-weight:700; border-bottom:2px solid #111;}
+
+
+
+
+
+
